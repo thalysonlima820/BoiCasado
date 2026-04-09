@@ -62,7 +62,7 @@ function App() {
       <main className="flex w-full h-[90%] gap-4 mt-4">
 
         {/* parte 1 */}
-        <div className="w-1/2 h-full flex flex-col gap-4  pr-2 overflow-hidden">
+        <div className="w-1/2 h-full flex flex-col gap-4 pr-2 overflow-hidden">
           {/* resumo entrada */}
           <div className="w-full h-1/2 flex flex-col rounded-2xl border border-white/10 bg-secondary shadow-md transition hover:shadow-lg">
 
@@ -452,7 +452,7 @@ function App() {
 
               {/* título */}
               <div>
-                <h1 className="text-base font-semibold text-textPrimary">
+                <h1 className="-mt-3 text-base font-semibold text-textPrimary">
                   Resumo Geral
                 </h1>
                 <p className="text-xs text-textSecondary">
@@ -461,7 +461,7 @@ function App() {
               </div>
 
               {/* métricas */}
-              <div className="grid grid-cols-2 gap-3 mt-2">
+              <div className="grid grid-cols-2 gap-3">
 
                 <div className="bg-primary rounded-xl p-2 border border-white/10">
                   <p className="text-[10px] text-textSecondary">Entrada Total</p>
@@ -500,7 +500,7 @@ function App() {
                 <p className="text-[10px] text-textSecondary">Aproveitado x perda</p>
               </div>
 
-              <div className="relative flex items-center justify-center">
+              <div className="relative flex items-center justify-center -mt-2">
                 {/* anel externo */}
                 <div
                   className="relative w-32 h-32 rounded-full shadow-[0_0_30px_rgba(0,0,0,0.25)]"
@@ -521,8 +521,6 @@ function App() {
                   </div>
                 </div>
               </div>
-
-
 
             </div>
 
